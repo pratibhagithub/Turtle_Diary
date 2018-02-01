@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#B6B6B6</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#303F9F</color>
+    <color name="black">#000000</color>
+    <color name="blue_bottom_bar_bg">#1095DA</color>
+    <color name="parent_green">#78B53C</color>
+    <color name="restore_color">#2D4487</color>
+    <color name="light_gray">#DBDBDB</color>
+    <color name="top_bar_color">#F9F9F9</color>
+    <color name="gray_color">#6D6E70</color>
+    <color name="green_quizz_header">#9BA92E</color>
+    <color name="orange_video_header">#E18D07</color>
+    <color name="print_background">#4589F7</color>
+    <color name="full_transparent">#00000000</color>
+
+
+</resources>

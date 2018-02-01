@@ -1,0 +1,51 @@
+<resources>
+    <string name="hello"></string>
+    <string name="print">Print</string>
+    <string name="facebook_app_id">282563898505726</string>
+    <string name="fb_login_protocol_scheme">fb282563898505726</string>
+    <string name="app_name">TurtleDiary</string>
+    <string name="information">Information</string>
+    <string name="account">Account</string>
+    <string name="signin">SignIn</string>
+    <string name="setting">Settings</string>
+    <string name="kid_safe">Kid safe!</string>
+    <string name="about_app">About this App</string>
+    <string name="pdf_msg">The file will be generated in  </string>
+    <string name="pdf_sec">secs </string>
+    <string name="background_sound">Background Sound</string>
+    <string name="sound">Sounds</string>
+    <string name="restore">Restores</string>
+    <string name="logout">Logout</string>
+    <string name="loginas">Login As</string>
+    <string name="td_username">TurtleDiary Username</string>
+    <string name="td_class_code">Class Code</string>
+    <string name="hint_username">Type Username</string>
+    <string name="hint_class_code">Type Class Code</string>
+    <string name="hint_userpwd">Type Password</string>
+    <string name="td_password">TurtleDiary Password</string>
+    <string name="username">Username : </string>
+    <string name="authorise_device">Authorise device</string>
+    <string name="fg_uname">Forgot username?</string>
+    <string name="fg_pwd">Forgot password?</string>
+    <string name="signup">Sign Up</string>
+    <string name="not_mem">Not a member</string>
+    <string name="promt">Select</string>
+    <string name="login_inf">This is a basic account. Login with your premium account to see full content.</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="free_trial">Free trial</string>
+    <string name="login">Login</string>
+    <string name="info_left_heading">About </string>
+    <string name="info_right_heading">About </string>
+    <string-array name="user_type_array">
+        <item>Teacher</item>
+        <item>Parent</item>
+        <item>HomeScholar</item><!--Incase we change spelling here, this we also have to change at APIKeys class -->
+        <item>Student/Child</item>
+    </string-array>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="phone">Phone</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+
+</resources>

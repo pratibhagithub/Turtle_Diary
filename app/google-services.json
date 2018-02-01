@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "302667730578",
+    "firebase_url": "https://turtlediary-android-app.firebaseio.com",
+    "project_id": "turtlediary-android-app",
+    "storage_bucket": "turtlediary-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302667730578:android:6183aac7604304bc",
+        "android_client_info": {
+          "package_name": "com.turtlediary.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302667730578-r2ckasbcp947lemq54np2joctpo19ao0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv1xkC4AlJr0Xf7E8yMXi-MriUMh5n2Q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

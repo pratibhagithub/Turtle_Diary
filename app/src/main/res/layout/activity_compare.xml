@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_compare"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/dp_40"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/compare_bottom"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/compare_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+       />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/compare_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:padding="@dimen/dp_10"
+            android:text="@string/hello"
+            android:textColor="@color/blue_bottom_bar_bg"
+            android:textSize="@dimen/button_text_size" />
+
+        <TextView
+            android:id="@+id/tv_policys"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_condition"
+            android:padding="@dimen/dp_10"
+            android:text="@string/hello"
+
+
+            android:textColor="@color/blue_bottom_bar_bg"
+            android:textSize="@dimen/button_text_size"
+
+            />
+
+        <TextView
+            android:id="@+id/start_today_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/start_green"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:padding="@dimen/dp_10"
+            android:text="@string/hello"
+            android:textColor="@color/white"
+
+
+            android:textSize="@dimen/button_text_size" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

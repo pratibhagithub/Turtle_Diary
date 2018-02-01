@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/bg_base"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <ImageView
+            android:id="@+id/iv_color_sheets"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+            />
+
+        <ImageView
+            android:id="@+id/iv_art_craft"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_toRightOf="@id/iv_color_sheets"
+             />
+
+
+        <ImageView
+            android:id="@+id/iv_worksheet"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_below="@+id/iv_color_sheets"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+            android:layout_marginTop="@dimen/margin_vertical_dasboard_icon"
+           />
+
+        <ImageView
+            android:id="@+id/iv_worksheet_generator"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_below="@+id/iv_color_sheets"
+            android:layout_marginTop="@dimen/margin_vertical_dasboard_icon"
+            android:layout_toRightOf="@id/iv_worksheet"
+             />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_best_view_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_mid_container"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/dp_10" />
+    <RelativeLayout
+        android:id="@+id/more_progressBarSignInContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:background="@color/black"
+        android:alpha=".3"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

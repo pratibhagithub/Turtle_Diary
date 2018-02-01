@@ -1,0 +1,121 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="info_main_heading_top_margn">20dp</dimen>
+    <dimen name="text_size_normal">20sp</dimen>
+    x
+    <dimen name="spinner_height">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    /*Dashboard*/
+    <dimen name="dashboard_bottom_bar_height">50dp</dimen>
+    <dimen name="text_size_version">25sp</dimen>
+    <dimen name="margin_splash_version_bottom">40dp</dimen>
+    <bool name="isTablet">false</bool>
+    <dimen name="dashboard_app_icon_width">200dp</dimen>
+    <dimen name="dashboard_app_icon_height">85dp</dimen>
+    <dimen name="dashboard_icon_width">100dp</dimen>
+    <dimen name="dashboard_icon_height">95dp</dimen>
+    <dimen name="margin_vertical_dasboard_icon">10dp</dimen>
+    <dimen name="margin_horizontal_dasboard_icon">45dp</dimen>
+    <dimen name="content_text">16sp</dimen>
+    <dimen name="back_icon_padding">40dp</dimen>
+
+
+    /*Information */
+    <dimen name="content_heading">20sp</dimen>
+    <dimen name="content_sub_heading">20sp</dimen>
+    <dimen name="setting_input_size">15sp</dimen>
+    <dimen name="bar_text_size">20sp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="info_suheading_padding">15dp</dimen>
+    <dimen name="info_text_size">13sp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+
+
+    /*Keyboard*/
+    <dimen name="keyboard_height">400dp</dimen>
+
+    /*SignIn*/
+    <dimen name="heading_text_size">15dp</dimen>
+    <dimen name="sign_in_input_height">32dp</dimen>
+    <dimen name="sign_in_button_width">200dp</dimen>
+    <dimen name="sign_in_button_height">50dp</dimen>
+    <dimen name="button_left_right_padding">20dp</dimen>
+
+
+    /*Setting page*/
+    <dimen name="toggle_width">60dp</dimen>
+    <dimen name="toggle_height">30dp</dimen>
+
+    /*Setting page*/
+    <dimen name="top_bar_height">100dp</dimen>
+
+
+    /*Topic Page*/
+    <dimen name="topic_name_padding">10dp</dimen>
+    <dimen name="topic_name_text_size">20sp</dimen>
+
+    <!--Home Base Activity-->
+    <dimen name="back_icon_width">40dp</dimen>
+    <dimen name="back_icon_height">40dp</dimen>
+    <dimen name="topic_practice_text_size">16sp</dimen>
+
+
+    <!--Practice Activity-->
+    <dimen name="practice_width">250dp</dimen>
+    <dimen name="practice_height">130dp</dimen>
+
+
+    <!--Subject-->
+    <dimen name="subject_image_width">150dp</dimen>
+    <dimen name="subject_image_height">150dp</dimen>
+
+    <dimen name="subject_topic_thumb_width">175dp</dimen>
+    <dimen name="subject_topic_thumb_height">200dp</dimen>
+
+
+    <dimen name="dialog_button_text">20sp</dimen>
+
+
+    <!--Signup-->
+    <dimen name="subscription_button_width">100dp</dimen>
+    <dimen name="subscription_button_height">40dp</dimen>
+    <dimen name="main_header_text_size">26sp</dimen>
+    <dimen name="header_text_size">23sp</dimen>
+    <dimen name="sub_header_text_size">14sp</dimen>
+    <dimen name="data_text_size">13sp</dimen>
+    <dimen name="data_big_text_size">15sp</dimen>
+    <dimen name="padding_subs_long_data">15dp</dimen>
+    <dimen name="padding_subs">6dp</dimen>
+    <dimen name="padding_subs_button">7dp</dimen>
+    <dimen name="bottom_data_text_size">14sp</dimen>
+    <dimen name="dialog_button_text_size">19sp</dimen>
+
+    <!--Confirm-Payment screen-->
+    <dimen name="payment_header_text_size">19sp</dimen>
+    <dimen name="payment_text_size">17sp</dimen>
+    <dimen name="padding_between_rows">5dp</dimen>
+    <dimen name="payment_small_text_size">13sp</dimen>
+    <dimen name="left_right_padding">20dp</dimen>
+    <dimen name="top_bottom_padding">30dp</dimen>
+
+
+    <!--dialog screen-->
+    <dimen name="dialog_button_width">200dp</dimen>
+    <dimen name="dialog_button_height">50dp</dimen>
+    <dimen name="dialog_msg_text_size">20sp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Practice Activity-->
+    <dimen name="practice_width">400dp</dimen>
+    <dimen name="practice_height">200dp</dimen>
+</resources>

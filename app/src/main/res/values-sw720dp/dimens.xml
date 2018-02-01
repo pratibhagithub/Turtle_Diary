@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_icon_width">221dp</dimen>
+    <dimen name="dashboard_icon_height">225dp</dimen>
+    <dimen name="margin_vertical_dasboard_icon">60dp</dimen>
+    <dimen name="margin_horizontal_dasboard_icon">120dp</dimen>
+    !--Subject-->
+    <dimen name="subject_image_width">300dp</dimen>
+    <dimen name="subject_image_height">300dp</dimen>
+
+    <!--Practice Activity-->
+    <dimen name="practice_width">350dp</dimen>
+    <dimen name="practice_height">150dp</dimen>
+</resources>

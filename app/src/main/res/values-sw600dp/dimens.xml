@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /*Dashboard*/
+    <dimen name="margin_splash_version_bottom">70dp</dimen>
+    <dimen name="text_size_version">30sp</dimen>
+    <bool name="isTablet">true</bool>
+    <dimen name="dashboard_icon_width">161dp</dimen>
+    <dimen name="dashboard_icon_height">165dp</dimen>
+    <dimen name="margin_vertical_dasboard_icon">30dp</dimen>
+    <dimen name="margin_horizontal_dasboard_icon">100dp</dimen>
+    <dimen name="dashboard_app_icon_width">250dp</dimen>
+    <dimen name="dashboard_app_icon_height">105dp</dimen>
+
+    <dimen name="content_text">22sp</dimen>
+
+
+    /*Information */
+    <dimen name="content_heading">25sp</dimen>
+    <dimen name="content_sub_heading">20sp</dimen>
+    <dimen name="setting_input_size">15sp</dimen>
+    <dimen name="bar_text_size">20sp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="info_suheading_padding">25dp</dimen>
+    <dimen name="info_text_size">15sp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+
+
+    /*SignIn*/
+    <dimen name="heading_text_size">25dp</dimen>
+    <dimen name="sign_in_input_height">40dp</dimen>
+    <dimen name="button_left_right_padding">20dp</dimen>
+    <dimen name="sign_in_button_width">250dp</dimen>
+    <dimen name="sign_in_button_height">50dp</dimen>
+
+
+    /*Settimg page*/
+    <dimen name="toggle_width">70dp</dimen>
+    <dimen name="toggle_height">35dp</dimen>
+    <!--Home Base Activity-->
+    <dimen name="back_icon_width">50dp</dimen>
+    <dimen name="back_icon_height">50dp</dimen>
+
+    <!--Practice Activity-->
+    <dimen name="practice_width">330dp</dimen>
+    <dimen name="practice_height">130dp</dimen>
+    <!--Subject-->
+    <dimen name="subject_image_width">250dp</dimen>
+    <dimen name="subject_image_height">250dp</dimen>
+
+
+    <dimen name="subject_topic_thumb_width">225dp</dimen>
+    <dimen name="subject_topic_thumb_height">250dp</dimen>
+
+
+    <!--Signup-->
+    <dimen name="sub_header_text_size">20sp</dimen>
+    <dimen name="padding_subs_long_data">20dp</dimen>
+    <dimen name="padding_subs">10dp</dimen>
+    <dimen name="data_text_size">18sp</dimen>
+    <dimen name="data_big_text_size">21sp</dimen>
+    <dimen name="bottom_data_text_size">19sp</dimen>
+
+    <!--Confirm-Payment screen-->
+    <dimen name="payment_header_text_size">29sp</dimen>
+    <dimen name="payment_text_size">26sp</dimen>
+    <dimen name="padding_between_rows">10dp</dimen>
+    <dimen name="payment_small_text_size">20sp</dimen>
+    <dimen name="left_right_padding">30dp</dimen>
+    <dimen name="top_bottom_padding">40dp</dimen>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_web_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WebViewActivity">
+
+
+    <WebView
+        android:id="@+id/webview_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/webview"></WebView>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+
+        ></WebView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_15"
+    >
+    <ImageView
+        android:id="@+id/iv_back_game_web"
+        android:layout_width="@dimen/back_icon_width"
+        android:layout_height="@dimen/back_icon_width"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:background="@drawable/back_normal"
+        android:padding="@dimen/back_icon_padding"
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_25"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:layout_alignParentRight="true"
+        android:text="@string/print"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:background="@color/blue_bottom_bar_bg"
+        android:textSize="@dimen/button_text_size"/>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/progressBarSignInContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@color/black"
+        android:alpha=".3">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdf_msg_overlay"
+        android:visibility="gone"
+        android:background="@color/black"
+        android:alpha="0.8"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pdf_msg"
+            android:textColor="@color/white"
+            android:id="@+id/tv_pdf_msg"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pdf_sec"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context=".activities.HomeActivity"
+    android:background="@drawable/bg_base">
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="@dimen/dashboard_app_icon_width"
+        android:layout_height="@dimen/dashboard_app_icon_height"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/td_logo"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iv_header"
+        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/rl_mid_container"
+
+       >
+
+        <ImageView
+            android:id="@+id/iv_game"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+            />
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_toRightOf="@id/iv_game"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+           />
+
+        <ImageView
+            android:id="@+id/iv_printables"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_toRightOf="@id/iv_video"
+/>
+        <ImageView
+            android:id="@+id/iv_lesson"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_below="@+id/iv_game"
+            android:layout_marginTop="@dimen/margin_vertical_dasboard_icon"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+           />
+
+        <ImageView
+            android:id="@+id/iv_quizzes"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_marginTop="@dimen/margin_vertical_dasboard_icon"
+            android:layout_below="@+id/iv_game"
+            android:layout_toRightOf="@id/iv_lesson"
+            android:layout_marginRight="@dimen/margin_horizontal_dasboard_icon"
+
+            /> <ImageView
+            android:id="@+id/iv_assesments"
+            android:layout_width="@dimen/dashboard_icon_width"
+            android:layout_height="@dimen/dashboard_icon_height"
+            android:layout_marginTop="@dimen/margin_vertical_dasboard_icon"
+            android:layout_below="@+id/iv_game"
+            android:layout_toRightOf="@id/iv_quizzes"
+            />
+    </RelativeLayout>
+    <TextView
+        android:paddingTop="@dimen/dp_10"
+        android:id="@+id/tv_best_view_txt"
+        android:layout_below="@+id/rl_mid_container"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
